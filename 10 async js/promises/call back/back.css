@@ -1,0 +1,15 @@
+.container{
+    background-color: blue;
+    width: 1000px;
+     height: 1000px; }
+.nav{
+    padding:10px;
+    margin: 10px;
+    font-size: 30px;
+    display:  flex;
+
+}
+.line{
+    background-color: aqua;
+    color: grey;
+}

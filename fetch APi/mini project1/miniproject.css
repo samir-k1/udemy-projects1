@@ -1,0 +1,40 @@
+.main{
+  border-radius: 3px;
+  border-color: black;
+  margin: 100px;
+}
+
+
+#input1{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.submit{
+    margin-top: 10px;
+    background-color: rgb(244, 49, 101);
+    width: 100px;
+    height: 30p;
+    border-radius: 20px;
+}
+.{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+     box-sizing: border-box; 
+    box-sizing: content-box;
+}
+.two{
+    background-color: rgb(108, 104, 104);
+     color: rgb(37, 35, 35); 
+    padding: 2px;
+    margin-top: 0px;
+    border-radius: 4px;
+   margin-right: 100px;
+}
+
+
+
