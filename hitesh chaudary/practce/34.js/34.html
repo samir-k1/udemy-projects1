@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manupulation</title>
+</head>
+<body>
+    <div class="lang">language 
+        <li>java</li>
+
+    </div>
+<script>
+
+    function createLang(name){
+        const li=document.createElement("li")
+        li.innerHTML=`${name}`
+        document.querySelector('.lang').appendChild(li)
+    }
+    createLang(" reacT")
+    createLang(" typescript")
+
+
+
+    function newLang(newlang){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(newlang))
+        document.querySelector('.lang').appendChild(li)
+    }
+    newLang("hygtfreds")
+
+   
+
+
+
+    const li= document.querySelector("li:nth-child(1)")
+         
+     const newLi=document.createElement('li')
+     newLi.textContent="mojo"
+
+     li.replaceWith(newLi)
+
+
+     const removeLi=document.querySelector('li:first-child')
+    
+     removeLi.remove()
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
